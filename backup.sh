@@ -1,0 +1,1 @@
+tar --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --exclude=/tmp/* --exclude=/run/* --exclude=/mnt/* --exclude=/media/* --exclude="swapfile" --exclude="lost+found" --exclude=".cache" --exclude=/home/alessandro/* --exclude=/hd_ext/* --exclude=/hd_sync/* -zcvf /home/alessandro/raspaImgBackup/backup.tar.gz /
